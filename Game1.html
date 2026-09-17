@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game1</title>
     <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="GamePage.css">
     <script type="module" src="CustomElements.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,30 @@
 <body>
     <my-header></my-header>
 
+    <div id=" bodyContainer">
+        <div id="ImageContainer">
+            <div class="slide">
+                <img src="Images/Image1.png" alt="">
+                <p>Caption 1</p>
+            </div>
+            <div class="slide">
+                <img src="Images/Image2.png" alt="">
+                <p>Caption 2</p>
+            </div>
+            <div class="slide">
+                <img src="Images/Image3.png" alt="">
+                <p>Caption 3</p>
+            
+            </div>
+
+            <a id="prevImg">&#10094;</a>
+            <a id="nextImg">&#10095;</a>
+
+            
+        </div>
+    </div>
+
     <my-footer></my-footer>
 </body>
 </html>
+<script src="GamePage.js"></script>

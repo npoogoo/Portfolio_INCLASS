@@ -8,8 +8,8 @@ class MyHeader extends HTMLElement {
         <div id="navigationButtons">
             <button onclick="window.location.href = 'index.html' "> HOME</button>
             <button onclick="window.location.href = 'HTMLGames.html' ">HTML GAMES</button>
-            <button onclick="window.location.href = 'Game2.html' ">Game 1</button>
-            <button onclick="window.location.href = 'Game3.html' ">Game 2</button>
+            <button onclick="window.location.href = 'Game1.html' ">Game 1</button>
+            <button onclick="window.location.href = 'Game2.html' ">Game 2</button>
         </div>
     </header>
         
